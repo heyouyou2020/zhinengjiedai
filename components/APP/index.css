@@ -1,0 +1,24 @@
+#app {
+  color: peru;
+}
+.but {
+  background-color: #6aa06a;
+  color: black;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+.fade-enter-to,
+.fade-leave {
+  opacity: 1;
+}
+.router-view {
+  transition: all 0.2s;
+}
+#login-popup {
+  width: 40%;
+  height: 40%;
+  top: 15%;
+  border-radius: 0.625rem;
+}

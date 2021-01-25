@@ -1,0 +1,77 @@
+body html {
+  width: 100%;
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.imageimage {
+  position: relative;
+  height: 100%;
+  display: hidden;
+}
+.imageimage .title {
+  position: absolute;
+  right: 20px;
+  top: 60px;
+}
+.imageimage .title span {
+  padding: 10px 20px;
+  color: white;
+}
+.imageimage .title .sp-an {
+  background-color: #1d9ffa;
+  padding: 10px 40px;
+  border-radius: 6px;
+}
+.imageimage .conten {
+  width: 80%;
+  background-color: white;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%);
+  padding-bottom: 80px;
+  height: 70%;
+}
+.imageimage .conten .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imageimage .conten .top .tupian {
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+.imageimage .conten .top .wenzi {
+  color: white;
+  background: #1ca2ff;
+  padding: 10px 30px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 6px;
+}
+.imageimage .conten .bottom .block {
+  margin: 40px 0;
+}
+.imageimage .conten .bottom .block span {
+  padding: 0 20px;
+  color: black;
+}
+.imageimage .conten .bottom .block .chaxun {
+  padding: 10px 30px;
+  color: white;
+  background-color: #1ca2ff;
+  margin-left: 20px;
+  border-radius: 6px;
+}
+.imageimage .conten .bottom .biaoge {
+  width: 90%;
+  margin: 0 auto;
+}
+.imageimage .conten .bottom .fenye {
+  margin-top: 40px;
+  float: right;
+  margin-right: 50px;
+}

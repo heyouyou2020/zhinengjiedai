@@ -1,0 +1,109 @@
+.login-item {
+  width: 100%;
+  height: 100%;
+}
+.login-item .login {
+  width: 100%;
+  margin: 20px auto;
+  background-color: #9399ca;
+}
+.login-item .login input {
+  border: none;
+  border-bottom: 1px solid #afaeae;
+  width: 100%;
+  padding: 10px 30px;
+  background-color: #9399ca;
+  font-size: 1rem;
+  box-sizing: border-box;
+  outline: none;
+}
+.login-item .login .usename {
+  padding: 0.8rem 0;
+  margin: 0 auto;
+  width: 100%;
+}
+.login-item .login .password {
+  padding: 0.8rem 0;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+.login-item .login .password button {
+  position: absolute;
+  right: 1rem;
+  top: 1.15rem;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+.login-item .register {
+  width: 100%;
+  margin: 20px auto;
+  background-color: #9399ca;
+}
+.login-item .register input {
+  border: none;
+  border-bottom: 1px solid #afaeae;
+  width: 100%;
+  padding: 10px 30px;
+  outline: none;
+  background-color: #9399ca;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+.login-item .register .usename {
+  padding: 0.8rem 0;
+  margin: 0 auto;
+  width: 100%;
+}
+.login-item .register .usename .timepick {
+  z-index: 9999999999999;
+  width: 100%;
+}
+.login-item .register .usename .sexpick {
+  padding: 0 30px;
+}
+.login-item .register .password {
+  padding: 0.8rem 0;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+.login-item .register .password button {
+  position: absolute;
+  right: 1rem;
+  top: 1.15rem;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+.login-item .news-login {
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.login-item .news-login span {
+  background-color: #e6e6e9;
+  padding: 10px 20px;
+  color: #caafaf;
+  border-radius: 10%;
+}
+.login-item .news-login .active {
+  background: #5b8ec7;
+  color: white;
+}
+.login-item .login-frowad {
+  width: 70%;
+  margin: 30px auto;
+  text-align: center;
+  background-color: #335ab4;
+  padding: 16px 0;
+  border-radius: 6px;
+  color: #fdfdfd;
+}
+.login-item .close-login {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 20px;
+}

@@ -1,0 +1,138 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+body html{
+    width: 100%;
+}
+.home{
+    width: 100%;
+    position: relative;
+    img{
+      display: block;
+      width: 100%;
+    }
+    .conten{
+        width: 70%;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+        padding-bottom: 100px;
+        
+        .login{
+            display: flex;
+            justify-content: space-between;
+            margin:40px 0;
+            .left{
+                span{
+                    padding: 10px 0;
+                    color: white;
+                    padding-right: 20px;
+                }
+            }
+            .right{
+                span{
+                    padding: 10px 20px; 
+                    color: white;
+                    background: rgb(76, 151, 221);
+                    border-radius: 4px;
+                    margin-left: 4px;
+                }
+            }
+           
+        }
+        .sfjz{
+            position: relative;
+            img{
+                height: 100px;
+                display: block;
+                margin-left: -16px; 
+            }
+            .maozi{
+                display: flex;
+                position: absolute;
+                left: 20px;
+                top: 50%;
+                transform: translateY(-50%);
+                img{
+                    width: 92px;
+                    height: 85px;
+                }
+                span{
+                  width: 600px;
+                  margin-top: 14px;
+                  font-size: 40px;
+                  font-weight: 800;
+                  color: white;
+                   
+                }
+            }
+        }
+        .fangkuang{
+            margin-top: 40px;
+            height: 200px;
+            padding: 80px 0;
+            display: flex;
+            align-items: center;
+            background-color: white;
+            border: 1px solid rgb(238, 238, 238);
+            box-shadow: 0px 0px 10px #888888;
+            .first{
+                width: 300px;
+                height: 300px;
+            }
+            img{
+                width: 200px;
+                height: 200px;
+                margin-left: 14px;
+                margin-right: 40px;
+            }
+        }
+        .anli{
+            width: 100%;
+            background-color: white;
+            border: 1px solid rgb(238, 238, 238);
+            padding: 10px 0 40px;
+            margin-top: 40px;
+            box-shadow: 0px 0px 10px #888888;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            .alltiem{
+                width: 40%;
+                margin-bottom: 20px;
+                .top-item{
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: 1px solid rgb(224, 220, 220);
+                    .zhanshi{
+                        padding: 10px 0px;
+                        border-bottom: 2px solid rgb(73, 138, 223);
+                        font-size: 20px;
+                        font-weight: 800;
+                    }
+                    .more{
+                        padding: 10px 20px; 
+                        color: rgb(161, 160, 160);
+                    }
+                }
+
+            }
+            ul{
+                list-style: none;
+                width: 100%;
+                li{
+                    list-style: none;
+                    color: black;
+                    font-size: 16px;
+                    padding: 6px 0;
+                    width: 100%;
+                    overflow: hidden;
+                    text-overflow: ellipsis; 
+                }
+            }
+
+        }
+    }
+}

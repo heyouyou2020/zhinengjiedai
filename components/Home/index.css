@@ -1,0 +1,36 @@
+body html {
+  width: 100%;
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.image {
+  position: relative;
+  height: 100%;
+  display: hidden;
+}
+.image .title {
+  position: absolute;
+  right: 20px;
+  top: 60px;
+}
+.image .title span {
+  padding: 10px 20px;
+  color: white;
+}
+.image .title .sp-an {
+  background-color: #1d9ffa;
+  padding: 10px 40px;
+  border-radius: 6px;
+}
+.image .fuwu-image {
+  position: absolute;
+  left: 50%;
+  top: 50;
+  transform: translate(-50%, -150%);
+}
+.image .fuwu-image span {
+  display: flex;
+}

@@ -1,0 +1,79 @@
+body html {
+  width: 100%;
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.imageimageimage {
+  position: relative;
+  height: 100%;
+  display: hidden;
+}
+.imageimageimage .title {
+  position: absolute;
+  right: 20px;
+  top: 60px;
+}
+.imageimageimage .title span {
+  padding: 10px 20px;
+  color: white;
+}
+.imageimageimage .title .sp-an {
+  background-color: #1d9ffa;
+  padding: 10px 40px;
+  border-radius: 6px;
+}
+.imageimageimage .conten {
+  width: 80%;
+  background-color: white;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%);
+  padding-bottom: 80px;
+  height: 700px;
+}
+.imageimageimage .conten .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imageimageimage .conten .top .tupian {
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+.imageimageimage .conten .top .wenzi {
+  color: white;
+  background: #1ca2ff;
+  padding: 10px 30px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 6px;
+}
+.imageimageimage .conten .component {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.imageimageimage .conten .component span {
+  padding: 10px 20px;
+  background: #d7e5f9;
+  color: #5d77b0;
+  margin-right: 20px;
+  border-radius: 6px;
+}
+.imageimageimage .conten .component .active {
+  background: #6f9ac4;
+  color: white;
+}
+.imageimageimage .conten .zujian {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.imageimageimage .conten .fenye {
+  position: absolute;
+  right: 50px;
+  bottom: 100px;
+}
